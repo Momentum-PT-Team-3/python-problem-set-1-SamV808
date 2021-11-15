@@ -2,8 +2,6 @@
 
 There are 10 problems of increasing difficulty to solve in `problem_set_1.py`. Tests are included to check your code.
 
-These problems are **exactly the same as the JavaScript problems you did in Phase 1**. You are welcome to look at your JavaScript code for help. The logic you need is the same but the syntax will, of course, be different.
-
 
 ## Run the tests with `pytest`
 
