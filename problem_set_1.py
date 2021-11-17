@@ -112,5 +112,22 @@ def multigreeting(name, lang):
 # Write a function called `gcd` that takes two arguments and returns the greatest
 # common divisor using the instructions above.
 
-def gcd(num1, num2):
+def gcd(a, b):
+    d = 0
+    while is_even(a) and is_even(b):
+        a = a / 2
+        b = b / 2
+        d = d + 1
+    while a != b:
+        if is_even(a):
+            a = a/2
+        elif is_even(b):
+            b = b/2
+        elif a > b:
+            a = (a-b) / 2
+        else: 
+            b = (b-a) / 2
+    g = a
+    return g * 2**d
     
+
