@@ -13,7 +13,7 @@ from problem_set_1 import (
     celsius_to_fahrenheit,
     lesser,
     multigreeting,
-    gcd,
+    gcd
 )
 
 
