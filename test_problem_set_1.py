@@ -8,12 +8,12 @@ from problem_set_1 import (
     greeting,
     is_odd,
     is_even,
-    # fahrenheit_to_celsius,
-    # fahrenheit_to_kelvin,
-    # celsius_to_fahrenheit,
-    # lesser,
-    # multigreeting,
-    # gcd,
+    fahrenheit_to_celsius,
+    fahrenheit_to_kelvin,
+    celsius_to_fahrenheit,
+    lesser,
+    multigreeting,
+    gcd
 )
 
 
